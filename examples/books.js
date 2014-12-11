@@ -12,7 +12,23 @@ var xml = opds.create(
 	[
 		{
 			title: "A book",
-			description: "This is a test book"
+			content: "This is a test book",
+			author: {
+				name: "Aaron O'Mullan",
+				uri: "https://www.gitbook.com/@aaron"
+			},
+			links: [
+				{
+					rel: "image",
+					href: "/book/test.jpg",
+					type: "image/jpeg"
+				},
+				{
+					rel: "acquisition/buy",
+					href: "/book/test.epub",
+					type: "application/epub+zip"
+				}
+			]
 		}
 	]
 );

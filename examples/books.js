@@ -12,7 +12,8 @@ var xml = opds.create(
 	[
 		{
 			title: "A book",
-			content: "This is a test book",
+			summary: "This is a test book",
+			updated: new Date(),
 			author: {
 				name: "Aaron O'Mullan",
 				uri: "https://www.gitbook.com/@aaron"

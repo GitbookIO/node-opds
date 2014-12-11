@@ -1,0 +1,19 @@
+{
+    "name": "opds-builder",
+    "version": "0.0.0",
+    "main": "lib/index.js",
+    "author": "GitBook <contact@gitbook.com>",
+    "description": "Library to generate OPDS feed",
+    "bugs": "https://github.com/GitbookIO/opds-builder/issues",
+    "engines": {
+        "node": ">=0.6"
+    },
+    "dependencies": {
+        "lodash": "2.4.1",
+        "xmlbuilder": "2.4.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GitbookIO/opds-builder.git"
+    }
+}

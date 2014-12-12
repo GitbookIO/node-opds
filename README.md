@@ -10,6 +10,8 @@ $ npm install opds-builder
 
 ## How to use it?
 
+:warning: This exampel is not valdi for http://opds-validator.appspot.com, you need to add all the required fields.
+
 ```js
 var opds = require("opds-builder");
 

@@ -10,7 +10,8 @@
     },
     "dependencies": {
         "lodash": "2.4.1",
-        "xmlbuilder": "2.4.5"
+        "xmlbuilder": "2.4.5",
+        "subjects-utils": "0.0.1"
     },
     "repository": {
         "type": "git",

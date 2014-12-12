@@ -29,6 +29,9 @@ var xml = opds.create(
 					href: "/book/test.epub",
 					type: "application/epub+zip"
 				}
+			],
+			categories: [
+				"FIC020000"
 			]
 		}
 	]

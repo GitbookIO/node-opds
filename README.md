@@ -1,6 +1,8 @@
 # OPDS builder
 
-This is a library to generate OPDS feed.
+This is a library to generate OPDS feed. It makes it easy to generate a feed from a list of book., it also handles correctly BISAC subjects.
+
+## How to install it?
 
 ```
 $ npm install opds-builder
@@ -22,8 +24,27 @@ var xml = opds.create(
 	[
 		{
 			title: "A book",
-			description: "This is a test book"
+			summary: "This is a test book",
+			updated: new Date(),
+			author: {
+				name: "Aaron O'Mullan",
+				uri: "https://www.gitbook.com/@aaron"
+			},
+			links: [
+				{
+					rel: "image",
+					href: "/book/test.jpg",
+					type: "image/jpeg"
+				},
+				{
+					rel: "acquisition/buy",
+					href: "/book/test.epub",
+					type: "application/epub+zip"
+				}
+			],
+			categories: [
+				"FIC020000"
+			]
 		}
 	]
-);
 ```

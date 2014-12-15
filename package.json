@@ -1,6 +1,6 @@
 {
     "name": "opds-builder",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "main": "lib/index.js",
     "author": "GitBook <contact@gitbook.com>",
     "description": "Library to generate OPDS feed",

@@ -49,4 +49,5 @@ var xml = opds.create(
 			]
 		}
 	]
+);
 ```

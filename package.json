@@ -5,6 +5,7 @@
     "author": "GitBook <contact@gitbook.com>",
     "description": "Library to generate OPDS feed",
     "bugs": "https://github.com/GitbookIO/opds-builder/issues",
+    "license": "Apache-2.0",
     "engines": {
         "node": ">=0.6"
     },

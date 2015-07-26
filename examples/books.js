@@ -3,19 +3,23 @@ var opds = require("../lib");
 
 var xml = opds.create({
     title: "My Catalog",
-    author: {
-        name: "Samy Pesse",
-        uri: "https://www.gitbook.com"
-    },
+    authors: [
+        {
+            name: "Samy Pesse",
+            uri: "https://www.gitbook.com"
+        }
+    ],
     books: [
         {
             title: "A book",
             summary: "This is a test book",
             updated: new Date(),
-            author: {
-                name: "Aaron O'Mullan",
-                uri: "https://www.gitbook.com/@aaron"
-            },
+            authors: [
+                {
+                    name: "Aaron O'Mullan",
+                    uri: "https://www.gitbook.com/@aaron"
+                }
+            ],
             links: [
                 {
                     rel: "image",
@@ -40,4 +44,4 @@ var xml = opds.create({
     ]
 });
 
-console.log(xml);
+console.log(opds.parse(xml));

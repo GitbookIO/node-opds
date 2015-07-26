@@ -1,6 +1,6 @@
 {
     "name": "opds",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "main": "lib/index.js",
     "author": "GitBook <contact@gitbook.com>",
     "description": "Library to parse/generate OPDS feed",

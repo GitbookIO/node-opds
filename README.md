@@ -1,19 +1,19 @@
-# OPDS builder
+# node-opds
 
-This is a library to generate OPDS feed. It makes it easy to generate a feed from a list of book., it also handles correctly BISAC subjects.
+This is a library to parse or generate OPDS feed. It makes it easy to generate a feed from a list of book., it also handles correctly BISAC subjects.
 
 ## How to install it?
 
 ```
-$ npm install opds-builder
+$ npm install opds
 ```
 
 ## How to use it?
 
-:warning: This example is not valid (http://opds-validator.appspot.com).
+:warning: This example is incomplete to pass OPDS Validation (http://opds-validator.appspot.com).
 
 ```js
-var opds = require("opds-builder");
+var opds = require("opds");
 
 var xml = opds.create({
     title: "My Catalog",
@@ -49,3 +49,13 @@ var xml = opds.create({
     ]
 });
 ```
+
+
+You can also parse an OPDS feed:
+
+```js
+
+var feed = opds.parse('...');
+```
+
+

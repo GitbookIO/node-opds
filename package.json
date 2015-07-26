@@ -1,10 +1,10 @@
 {
-    "name": "opds-builder",
+    "name": "opds",
     "version": "1.0.1",
     "main": "lib/index.js",
     "author": "GitBook <contact@gitbook.com>",
-    "description": "Library to generate OPDS feed",
-    "bugs": "https://github.com/GitbookIO/opds-builder/issues",
+    "description": "Library to parse/generate OPDS feed",
+    "bugs": "https://github.com/GitbookIO/node-opds/issues",
     "license": "Apache-2.0",
     "engines": {
         "node": ">=0.6"
@@ -16,6 +16,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/opds-builder.git"
+        "url": "https://github.com/GitbookIO/node-opds.git"
     }
 }
